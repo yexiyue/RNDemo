@@ -39,7 +39,7 @@ buildscript {
 
 ### 2.配置名称和图标
 
-![image-20230411083857305](2023-03-31.assets/image-20230411083857305.png)
+![image-20230411083857305](https://yexiyue.github.io/blogs/2023/2023-03-31.assets/image-20230411083857305.png)
 
 在android工程main下res文件夹包含dpi的就是图标文件夹
 
@@ -294,13 +294,13 @@ export async function deleteData(key:string) {
 
 
 
-![image-20230421210327504](2023-03-31.assets/image-20230421210327504.png)
+![image-20230421210327504](https://yexiyue.github.io/blogs/2023/2023-03-31.assets/image-20230421210327504.png)
 
 在build选项里选择生成签名
 
 然后在android工程下按F4
 
-![image-20230421211004876](2023-03-31.assets/image-20230421211004876.png)
+![image-20230421211004876](https://yexiyue.github.io/blogs/2023/2023-03-31.assets/image-20230421211004876.png)
 
 **新增加release**
 
@@ -308,7 +308,7 @@ export async function deleteData(key:string) {
 
 然后回到vscode
 
-![image-20230422102226790](2023-03-31.assets/image-20230422102226790.png)
+![image-20230422102226790](https://yexiyue.github.io/blogs/2023/2023-03-31.assets/image-20230422102226790.png)
 
 在安卓工程下执行该命令，即可打包好
 
@@ -328,4 +328,4 @@ pnpm android --mode=release
 
 最后打包生成的apk在安卓工程下output文件夹里
 
-![image-20230422102437378](2023-03-31.assets/image-20230422102437378.png)
+![image-20230422102437378](https://yexiyue.github.io/blogs/2023/2023-03-31.assets/image-20230422102437378.png)
